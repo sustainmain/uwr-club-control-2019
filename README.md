@@ -14,7 +14,7 @@ All the tests I made as I went are in `arduino/tests/`. The directory has tests 
 
 The final Raspberry Pi control program is `pi/pi-control.py`. Since the Pi is intended to be run without a keyboard or mouse, `pi/button-listener.py` allows the pilot to restart the control program or shutdown the Pi using GPIO buttons. 
 
-All the tests are in `pi/tests`, and sorted into 3 main categories.
+All the tests are in `pi/tests/`, and sorted into 3 main categories.
 * `joystick-turtle-test/` has all the tests for reading input from a USB gamepad
 * `packet-test/` has a test that sends malformed data packets
 * `serial-test/` has all the tests for serial communication
